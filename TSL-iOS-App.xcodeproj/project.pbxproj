@@ -14,6 +14,16 @@
 		AECA873F1C5FD9A1002777E4 /* TSL_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA873E1C5FD9A1002777E4 /* TSL_iOS_AppUITests.swift */; };
 		AECA87561C5FDB74002777E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECA87551C5FDB74002777E4 /* Main.storyboard */; };
 		AECA87581C5FDB92002777E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECA87571C5FDB92002777E4 /* LaunchScreen.storyboard */; };
+		AECA875B1C5FE276002777E4 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA875A1C5FE276002777E4 /* GlobalState.swift */; };
+		AECA875D1C5FE2B6002777E4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA875C1C5FE2B6002777E4 /* UserModel.swift */; };
+		AECA875F1C5FE2BF002777E4 /* AuthUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA875E1C5FE2BF002777E4 /* AuthUserModel.swift */; };
+		AECA87611C5FE2C6002777E4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA87601C5FE2C6002777E4 /* PostModel.swift */; };
+		AECA87631C5FE2FE002777E4 /* AuthPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA87621C5FE2FE002777E4 /* AuthPostModel.swift */; };
+		AECA87671C5FE481002777E4 /* UserModelAccountTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA87661C5FE481002777E4 /* UserModelAccountTypes.swift */; };
+		AECA87691C5FE7D9002777E4 /* APIErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA87681C5FE7D9002777E4 /* APIErrorCodes.swift */; };
+		AECA876B1C5FEACD002777E4 /* PersonalUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA876A1C5FEACD002777E4 /* PersonalUserModel.swift */; };
+		AECA876D1C601743002777E4 /* ProUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA876C1C601743002777E4 /* ProUserModel.swift */; };
+		AECA876F1C6018B9002777E4 /* CompanyUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA876E1C6018B9002777E4 /* CompanyUserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		AECA87401C5FD9A1002777E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECA87551C5FDB74002777E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AECA87571C5FDB92002777E4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AECA875A1C5FE276002777E4 /* GlobalState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		AECA875C1C5FE2B6002777E4 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		AECA875E1C5FE2BF002777E4 /* AuthUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUserModel.swift; sourceTree = "<group>"; };
+		AECA87601C5FE2C6002777E4 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		AECA87621C5FE2FE002777E4 /* AuthPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPostModel.swift; sourceTree = "<group>"; };
+		AECA87661C5FE481002777E4 /* UserModelAccountTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModelAccountTypes.swift; sourceTree = "<group>"; };
+		AECA87681C5FE7D9002777E4 /* APIErrorCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIErrorCodes.swift; sourceTree = "<group>"; };
+		AECA876A1C5FEACD002777E4 /* PersonalUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalUserModel.swift; sourceTree = "<group>"; };
+		AECA876C1C601743002777E4 /* ProUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProUserModel.swift; sourceTree = "<group>"; };
+		AECA876E1C6018B9002777E4 /* CompanyUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyUserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,8 @@
 		AECA871A1C5FD9A1002777E4 /* TSL-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
+				AECA87651C5FE478002777E4 /* Enums */,
+				AECA87591C5FE264002777E4 /* Global */,
 				AECA87541C5FDB6A002777E4 /* Storyboards */,
 				AECA87531C5FDA5D002777E4 /* Designables */,
 				AECA87511C5FDA4C002777E4 /* Extensions */,
@@ -148,6 +170,13 @@
 		AECA874E1C5FDA16002777E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AECA875C1C5FE2B6002777E4 /* UserModel.swift */,
+				AECA876A1C5FEACD002777E4 /* PersonalUserModel.swift */,
+				AECA875E1C5FE2BF002777E4 /* AuthUserModel.swift */,
+				AECA87601C5FE2C6002777E4 /* PostModel.swift */,
+				AECA87621C5FE2FE002777E4 /* AuthPostModel.swift */,
+				AECA876C1C601743002777E4 /* ProUserModel.swift */,
+				AECA876E1C6018B9002777E4 /* CompanyUserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +216,23 @@
 				AECA87571C5FDB92002777E4 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AECA87591C5FE264002777E4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				AECA875A1C5FE276002777E4 /* GlobalState.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		AECA87651C5FE478002777E4 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AECA87661C5FE481002777E4 /* UserModelAccountTypes.swift */,
+				AECA87681C5FE7D9002777E4 /* APIErrorCodes.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,8 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECA87671C5FE481002777E4 /* UserModelAccountTypes.swift in Sources */,
 				AECA87241C5FD9A1002777E4 /* TSL_iOS_App.xcdatamodeld in Sources */,
+				AECA876B1C5FEACD002777E4 /* PersonalUserModel.swift in Sources */,
+				AECA87691C5FE7D9002777E4 /* APIErrorCodes.swift in Sources */,
+				AECA876F1C6018B9002777E4 /* CompanyUserModel.swift in Sources */,
+				AECA87631C5FE2FE002777E4 /* AuthPostModel.swift in Sources */,
+				AECA87611C5FE2C6002777E4 /* PostModel.swift in Sources */,
 				AECA871C1C5FD9A1002777E4 /* AppDelegate.swift in Sources */,
+				AECA875F1C5FE2BF002777E4 /* AuthUserModel.swift in Sources */,
+				AECA875D1C5FE2B6002777E4 /* UserModel.swift in Sources */,
+				AECA875B1C5FE276002777E4 /* GlobalState.swift in Sources */,
+				AECA876D1C601743002777E4 /* ProUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
